@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadets Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+  
+  <div class="c1" id="a2">
+  <h1>NATIONAL CADET CORPS</h1>
+  <img src="NCC_emblem.jpg" alt="logo" height="150px">
+  </div>
+
+  <div class="c1" id="a1" >
+  Unity and Discipline
+  </div>
+
+<div class="back">
+<img src="flag.png" alt="flag" height="100%" width="100%">
+</div>
+
+  <div class="c2">
+    <h2>Cadet Registration Form</h2>
+    <div class="reg">
+  
+
+  <form>
+  
+    <span>Personal Details</span>
+    <br>
+    <br>
+    <br>
+    <ol>
+    <li><label for="name" required>Full Name:</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <br></li>
+    
+    <li><label for="contact" required>Mobile No.:</label>
+    <input type="tel" id="contact" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="0000000000">
+    <br>
+    <br>
+    <br></li>
+    
+    <li><label for="Email" >Email id:</label>
+    <input type="email" id="Email" placeholder="abcd@gmail.com">
+    <br>
+    <br>
+    <br></li>
+    <li>
+    <label for="Date">Date of Birth:</label>
+    <input type="date" id="Date">
+    <br>
+    <br>
+    <br></li>
+    <li>
+    <label for="city" required>City:</label>
+    <input type="text" id="city">
+    <br>
+    <br>
+    <br></li>
+    <li>
+    <label for="counter">Age (in years):</label>
+    <input type="number" name="counter" id="counter" min="10" max="30">
+    <br>
+    <br>
+    </li>
+    <li>
+  
+    <p style="display: inline;">Gender:</p>
+    
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female">
+    <label for="radio3">Prefer not to say</label>
+    <input type="radio" name="gender" id="radio3">
+</li>
+</ol>
+</div>
+
+  
+    <div class="docu">
+   
+        <span>Documents</span>
+        <br>
+        <br>
+         <ol>
+          <li><label for="imgselect">Upload passport size image (only jpg and png format):</label>
+            <input type="file" id="imgselect" accept="image/png,image/jpeg" />
+            <br>
+            <br></li>
+          <li><label for="signature">Upload signature image (only jpg and png format):</label>
+            <input type="file" id="signature" accept="image/png,image/jpeg" />
+            <br>
+            <br></li>
+          <li><label for="aadhar">Upload aadhar card (in pdf format):</label>
+            <input type="file" id="aadhar" accept="application/pdf"></li>
+         </ol>
+        
+        
+        
+        
+      
+    </div>
+      
+    <div class="training">
+    
+      <span>Training Modules</span>
+      <br>
+    
+       <h4>Please select one or more :</h4>
+      <br>
+      <input type="checkbox" name="a" id="a">
+      <label for="a">Drill</label>
+      <br>
+      <input type="checkbox" name="b" id="b">
+      <label for="b">Shooting</label>
+  <br>
+  <input type="checkbox" name="c" id="c">
+  <label for="c">Physical fitness</label>
+  <br>
+  <input type="checkbox" name="d" id="d">
+  <label for="d">Map reading</label>
+  <br>
+  <input type="checkbox" name="e" id="e">
+  <label for="e">First aid</label>
+  <br>
+  <input type="checkbox" name="f" id="f">
+  <label for="f">Gliding/Flying</label>
+  <br>
+  <input type="checkbox" name="g" id="g">
+  <label for="g">Camp training</label>
+
+<br>
+<br>
+<div class="sub">
+  <input type="submit" value="Submit" class="button">
+  
+</div>
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+
+
+</body>
+</html>
